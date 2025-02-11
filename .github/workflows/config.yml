@@ -25,9 +25,9 @@ jobs:
         
         - name: build docker image
           run: |
-            docker build -t guzmanesther/day1activity:1.0.0 .
+            docker build -t estherguzman/bspd-activity1:latest .
         
         - name: tag and push to docker hub
           run: |
-            docker push guzmanesther/day1activity:1.0.0
+            docker push estherguzman/bspd-activity1:latest
         
